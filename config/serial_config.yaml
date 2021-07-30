@@ -1,0 +1,6 @@
+sbf_serial:
+  port: "/dev/ttyUSB0"                   # Destination Port()
+  baud: 115200                           # baudrate
+  sbf_topic: rtklib_nav_sep                  # Publish Topic name
+  frame_id: gps                          # Topic frame_id
+  rate: 100.0                            # watch receive buffer rate

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <rosparam command="load" file="$(find sbf_ros_bridge)/config/serial_config.yaml"/>
+  <node pkg="sbf_ros_bridge" name="sbf_serial" type="sbf_serial" />
+</launch>

@@ -1,0 +1,6 @@
+sbf_tcp:
+  address: "192.168.53.184"              # Destination IPAdress()
+  port: 63004                            # Destination Port()
+  sbf_topic: rtklib_nav                  # Publish Topic name
+  frame_id: gps                          # Topic frame_id
+  rate: 0.0                              # watch receive buffer rate
